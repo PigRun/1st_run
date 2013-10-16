@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8" />
+	<title>Winsor</title>
+	<style>
+
+	.trangle{
+		display:inline-block;
+		position: relative;
+		width:200px;
+		height:200px;
+		/*background:#eee;*/
+		border-bottom:3px solid green;
+		border-bottom-left-radius:5px;
+		-webkit-transform:rotateZ(-60deg);
+	}
+
+	.trangle.trangle2{
+		-webkit-transform:rotateZ(60deg) rotateY(180deg) translate(-45px,-76px);
+	}
+
+	.trangle.trangle3{
+		-webkit-transform:translate(-263px,52px);
+	}
+
+	.trangle.trangle4{
+		-webkit-transform:rotateZ(180deg) translate(465px,-265px);
+	}
+
+	.trangle.red{
+		border-color:red;
+	}
+
+	.trangle::after{
+		position:absolute;
+		content:' ';
+		width:200px;
+		height:200px;
+		border-left:3px solid green;
+		border-radius: 5px;
+		-webkit-transform-origin:0 100%;
+		-webkit-transform:rotateZ(30deg) translateX(-3px);
+	}
+	.trangle.red::after{
+		border-color:red;
+	}
+	.trangle::before{
+		position:absolute;
+		content:' ';
+		width:100px;
+		height:100px;
+		border-left:3px solid green;
+		border-bottom-left-radius: 5px;
+		-webkit-transform:rotateZ(150deg) translate(-7px,-55px);
+	}
+	.trangle.red::before{
+		border-color:red;
+	}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="trangle"></div>
+	<div class="trangle trangle2"></div>
+	<div class="trangle red trangle3"></div>
+	<div class="trangle red trangle4"></div>
+
+</body>
+</html>
