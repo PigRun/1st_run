@@ -16,13 +16,14 @@ h1 {
 	text-align: center;
 	color: #fff;
 	text-shadow: 0 1px 3px #000;
+	overflow: hidden;
+	clear: both;
 }
 .box {
+	float: left;
 	width: 300px;
 	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
+	margin: 15px 0 15px 30px;
 	position: relative;
 	overflow: hidden;
 	border: 5px solid #FFF;
@@ -75,9 +76,9 @@ b:hover {
 	position: absolute;
 	top: 0;
 	opacity: 0;
-	-moz-transition: all .5s ease;
-	-webkit-transition: all .5s ease;
-	transition: all .5s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 .mask span {
@@ -88,9 +89,9 @@ b:hover {
 	color: #fff;
 }
 b:nth-of-type(1):hover ~ .mask {
-	-moz-animation: down .3s ease forwards;
-	-webkit-animation: down .3s ease forwards;
-	animation: down .3s ease forwards;
+	-moz-animation: down .5s ease forwards;
+	-webkit-animation: down .5s ease forwards;
+	animation: down .5s ease forwards;
 }
 @-webkit-keyframes down {
 	from {
@@ -111,9 +112,9 @@ b:nth-of-type(1):hover ~ .mask {
 	}
 }
 b:nth-of-type(2):hover ~ .mask {
-	-moz-animation: up .3s ease forwards;
-	-webkit-animation: up .3s ease forwards;
-	animation: up .3s ease forwards;
+	-moz-animation: up .5s ease forwards;
+	-webkit-animation: up .5s ease forwards;
+	animation: up .5s ease forwards;
 }
 @-webkit-keyframes up {
 	from {
@@ -134,9 +135,9 @@ b:nth-of-type(2):hover ~ .mask {
 	}
 }
 b:nth-of-type(3):hover ~ .mask {
-	-moz-animation: left .3s ease forwards;
-	-webkit-animation: left .3s ease forwards;
-	animation: left .3s ease forwards;
+	-moz-animation: left .5s ease forwards;
+	-webkit-animation: left .5s ease forwards;
+	animation: left .5s ease forwards;
 	top: 0;
 }
 @-webkit-keyframes left {
@@ -154,9 +155,9 @@ b:nth-of-type(3):hover ~ .mask {
 	}
 }
 b:nth-of-type(4):hover ~ .mask {
-	-moz-animation: right .3s ease forwards;
-	-webkit-animation: right .3s ease forwards;
-	animation: right .3s ease forwards;
+	-moz-animation: right .5s ease forwards;
+	-webkit-animation: right .5s ease forwards;
+	animation: right .5s ease forwards;
 	top: 0;
 	left: auto;
 	right: 0;
@@ -183,6 +184,146 @@ b:nth-of-type(4):hover ~ .mask {
 </head>
 <body>
 <h1>css direction</h1>
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
+<div class="box">
+	<img src="pic/sun.jpg" alt="">
+	<b></b>
+	<b></b>
+	<b></b>
+	<b></b>
+	<div class="mask">
+		<span>hover</span>
+	</div>
+</div>	
 <div class="box">
 	<img src="pic/sun.jpg" alt="">
 	<b></b>
