@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>mike</title>
+<style type="text/css">
+/*
+26 42
+9 14
+52 71
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding: 10px;
+}
+.mike {
+	position: relative;
+	display: block;
+	width: 260px;
+	height: 420px;
+	margin: 0 auto;
+	background: #000;
+	border-radius: 300px;
+}
+.mike:before, .mike:after {
+	position: absolute;
+	content: '';
+}
+.mike:before {
+	width: 90px;
+	height: 180px;
+	background: #000;
+	left: 85px;
+	bottom: -240px;
+}
+.mike:after {
+	bottom: 0;
+	left: 0;
+	width: 380px;
+	height: 200px;
+	overflow: hidden;
+	border: 50px solid #000;
+	border-top: 0 none;
+	border-radius: 0 0 280px 280px;
+	bottom: -110px;
+	left: -110px;
+}
+</style>
+</head>
+<body>
+<i class="mike"></i>	
+</body>
+</html>
