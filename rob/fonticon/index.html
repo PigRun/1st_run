@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8" />
+	<title>FontIcon</title>
+	<style>
+		@font-face{
+			font-family: "icon";
+			src: url("icon.otf") format("opentype");
+		}
+		#container{
+			font-size:84px;
+			color:transparent;
+			background: -webkit-linear-gradient(top,red,blue);
+			-webkit-background-clip:text;
+		}
+		#container i{
+			font-family: "icon";
+			font-style: normal;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<i>A</i>
+		<span>试试看</span>
+	</div>
+</body>
+</html>
