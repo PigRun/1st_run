@@ -79,3 +79,53 @@
 	background-image: -webkit-linear-gradient(top, blue, red);
 	-webkit-background-clip: text;
 }
+
+/* taiji */
+.bobb .article_taiji .container{
+	background: #272822;
+	padding: 50px;
+	margin: 5px;
+	width: calc(100% - 110px);
+}
+.bobb .article_taiji .taiji {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	background-image: linear-gradient(90deg, #fff 50%, #000 50%);
+	box-shadow: 0 0 50px #fff;
+	-webkit-transition: all 2s ease-in;
+}
+.bobb .article_taiji .taiji:hover {
+	-webkit-transform: rotate(360deg);
+}
+.bobb .article_taiji .taiji:before, .taiji:after {
+	position: absolute;
+	content: '';
+}
+.bobb .article_taiji .taiji:before {
+	top: 0;
+	left: 125px;
+	width: 50px;
+	height: 50px;
+	border: 100px solid #fff;
+	background: #000;
+	border-radius: 50%;
+}
+.bobb .article_taiji .taiji:after {
+	bottom: 0;
+	left: 125px;
+	width: 50px;
+	height: 50px;
+	border: 100px solid #000;
+	background: #fff;
+	border-radius: 50%;
+}
+.bobb .article_taiji .demo{
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
