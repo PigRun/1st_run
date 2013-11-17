@@ -72,3 +72,10 @@
 .bobb .article_filter .demo_blur ul{
 	margin: 0 0 0 300px;
 }
+
+/* font-icon && background-clip */
+.bobb .article_fonticon{
+	color: transparent;
+	background-image: -webkit-linear-gradient(top, blue, red);
+	-webkit-background-clip: text;
+}
