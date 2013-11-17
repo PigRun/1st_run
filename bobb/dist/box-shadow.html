@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box-shadow</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="bobb">
+		<article class="article_boxshadow">
+			<h2>Box-shadow？这才不是你想象中的box-shadow...</h2>
+			<p>box-shadow是在css3之后崛起的属性之一，也许我们对box-shadow的印象停留在下面这样：</p>
+			<img src="./img/article_boxshadow_1.png">
+			<p>但是box-shadow并不止能做这些，在一定意义上说这个属性有很大的潜力，可以完成很多诸如纹理背景，渐变叠加的效果。我们随着这篇文章来挖掘一下box-shadow可以做出什么。</p>
+
+			<section>
+				<h3>用box-shadow实现分层渐变</h3>
+				<div class="mixed">
+					<img class="demo" src="./img/article_boxshadow_2.png">
+					<p>这里主要利用了多层阴影做出了一个分层渐变的效果。css3中box-shadow可以有多层阴影，使用多层则可以做出许多和目标物体相同形状而不同颜色大小的结构。</p>
+				</div>
+				<img class="demo_detail" src="./img/article_boxshadow_3.png">
+			</section>
+
+			<section>
+				<h3>用box-shadow实现漩涡状效果</h3>
+				<div class="mixed">
+					<img class="demo" src="./img/article_boxshadow_4.png">
+					<p>Box-shadow里有关于渐变的属性，如上图所示如果加上了圆心渐变的属性，就可以做出好看的圆心渐变漩涡效果。</p>
+				</div>
+				<img class="demo_detail" src="./img/article_boxshadow_5.png">
+			</section>
+
+			<section>
+				<h3>纹理背景</h3>
+				<div class="mixed">
+					<img class="demo" src="./img/article_boxshadow_6.png">
+					<p>与上面那个同理，只是这个使用的是线性渐变，而这里拓展出去便可以使用这个属性实现纹理背景。</p>
+				</div>
+				<img class="demo_detail" src="./img/article_boxshadow_7.png">
+			</section>
+
+			<section>
+				<h3>多层阴影渐变</h3>
+				<div class="mixed">
+					<img class="demo" src="./img/article_boxshadow_8.png">
+					<p>利用1+3，渐变叠加加上多层阴影，就可以做成上图这样的图案，而发挥想象力，基于这应该能做更多有趣的图形。</p>
+				</div>
+				<img class="demo_detail" src="./img/article_boxshadow_9.png">
+				<img class="demo_detail" src="./img/article_boxshadow_10.png">
+				<p>而这个还有一个不同的写法，读者可以对比一下这两种方法。</p>	
+			</section>
+
+		</article>
+	</div>
+</body>
+</html>

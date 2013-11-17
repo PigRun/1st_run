@@ -266,6 +266,9 @@ html, body {
 #p9:checked ~ ._book .p17,
 #p10:checked ~ ._book .p19,
 #p11:checked ~ ._book .p21 {
+  width: 700px;
+  left: 0;
+  top: 0;
   -webkit-transform: rotate(0deg);
   -webkit-transform-style: preserve-3d;
 }
@@ -282,6 +285,7 @@ html, body {
 #p11:checked ~ ._book .p21 ._rpi {
   right: -350px;
   top: -75px;
+  width: 700px;
   -webkit-transform: rotate(0deg);
   -webkit-transform-style: preserve-3d;
 }
@@ -298,6 +302,9 @@ html, body {
 #p10:checked ~ ._book .p20,
 #p11:checked ~ ._book .p22 {
   height: 1020px;
+  width: 700px;
+  left: 0;
+  top: 0;
   -webkit-transition: -webkit-transform 1s, height 0s 0s;
   -webkit-transform: rotate(0deg);
   -webkit-transform-style: preserve-3d;
@@ -377,7 +384,9 @@ html, body {
 ._book ._lpi label {
   left: 0;
 }
-/*内容区样式*/
+
+
+/* 目录页面 */
 .grandient-background{
   background: -webkit-repeating-linear-gradient(-45deg,transparent,transparent 5px,#B7C0BE 5px,#B7C0BE 6px,transparent 6px), -webkit-repeating-linear-gradient(45deg,transparent,transparent 5px,#B7C0BE 5px,#B7C0BE 6px,transparent 6px);
   background-size: 8px 8px;
@@ -389,3 +398,51 @@ html, body {
 .content li .author{float: right;font-size: 14px;color: #999}
 .content li:hover{text-decoration: none;background: #D5D5D5;color: #fff;text-shadow:1px 1px 0px #000;}
 .content li:hover .author{color: #fff}
+
+
+
+
+/* 文章内容 */
+
+/* 背景 */
+.bobb .article_background{}
+.bobb .article_background section{
+  overflow: hidden;
+}
+.bobb .article_background h2{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid green;
+}
+.bobb .article_background h3{
+  margin: 10px 5px;
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+}
+.bobb .article_background p{
+  line-height: 1.5;
+  margin: 5px;
+}
+.bobb .article_background section p{
+  text-indent: 2em;
+}
+.bobb .article_background .mixed{
+  overflow: hidden;
+  display: table;
+}
+.bobb .article_background .mixed p{
+  display: table-cell;
+  vertical-align: middle;
+}
+.bobb .article_background .demo{
+  float: left;
+}
+.bobb .article_background .demo_detail{
+  max-width: 100%;
+}
+.bobb .article_background .background_gradient .demo{
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
