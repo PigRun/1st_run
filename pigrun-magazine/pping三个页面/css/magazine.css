@@ -391,7 +391,7 @@ html, body {
 .content li:hover .author{color: #fff}
 
 /*catalog 样式 [[*/
-.catalog{width: 700px;height: 1000px;font-family: Arial,"microsoft yahei";background: url(../source/catalog_bg.jpg) no-repeat 0 0;}
+.catalog{width: 700px;height: 1000px;font-family: Arial,"microsoft yahei";background: url(../img/catalog_bg.jpg) no-repeat 0 0;}
 .catalog h1{height: 0;width: 0;overflow: hidden;line-height: 9999px;}
 .catalog .catalog_items{margin-top:130px;width:280px;text-align:right; font-size: 23px;color: #fff;}
 .catalog .catalog_items .num em{display: inline-block; width: 30px;height: 26px;line-height:26px;text-align:center;background-color: #7A0807;}
@@ -401,8 +401,39 @@ html, body {
     -o-transition: all 0.1s ease-in;
     transition: all 0.1s ease-in;
   }
-.catalog .catalog_items .tit:hover{cursor: pointer;margin-right: 5px;}
+.catalog .catalog_items .tit:hover{cursor: pointer;margin-right: 6px;}
 /*catalog 样式 ]]*/
+/*about-us 样式 [[*/
+.about-us{position: relative; width: 700px;height: 1000px;overflow:hidden;font-family: "张海山锐线体简";color: #000;}
+.icon-footprints{position: absolute;top: 80px;left: 45px; width: 22px;height: 22px;overflow: hidden;background: url(../img/icon-footprints.png) no-repeat;-webkit-transform:rotate(-45deg);}
+.footprints1{top: 65px;left: 110px; -webkit-transform:rotate(-45deg);}
+.footprints2{top: 50px;left: 180px; -webkit-transform:rotate(-5deg);}
+.footprints3{top: 50px;left: 330px; -webkit-transform:rotate(-7deg);}
+.footprints4{top: 50px;left: 460px; -webkit-transform:rotate(-5deg);}
+.footprints5{top: 60px;left: 560px; -webkit-transform:rotate(-60deg);}
+.footprints6{top: 80px;left: 640px; -webkit-transform:rotate(-30deg);}
+
+.icon-footprints:hover{-webkit-transform:rotate(-60deg);}
+.footprints1:hover{-webkit-transform:rotate(-25deg);}
+.footprints2:hover{-webkit-transform:rotate(-20deg);}
+.footprints3:hover{-webkit-transform:rotate(-20deg);}
+.footprints4:hover{-webkit-transform:rotate(-20deg);}
+.footprints5:hover{-webkit-transform:rotate(-30deg);}
+.footprints6:hover{-webkit-transform:rotate(-15deg);}
+
+.about-us h1{margin-top:90px;font-size: 50px;font-weight: bold; text-align: center;}
+.about-us .logo{margin: 50px 0 ;text-align: center;}
+.about-us .member{margin-top: 80px;}
+.about-us .member li{float: left;margin:0 19px;width: 101px;text-align: center;}
+.about-us .member .photo{width: 101px;height: 101px;border-radius: 50%;font-size: 60px;-webkit-box-reflect: below 3px -webkit-gradient(linear, 0% 70%, 0% 100%, from(transparent),color-stop(0.7,rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 1)));}
+.about-us .member .photo img{height: 101px;vertical-align: middle;}
+.about-us .member .photo:hover img{-webkit-transform:scale(1.1,1.1);cursor: pointer;-webkit-transform-origin:center bottom;}
+.about-us .member .name{margin-bottom:15px;font-size: 18px;font-weight: bold;}
+.about-us .signature{margin-top: 100px;text-align: center;font-size: 31px;font-weight: bold;color: #080808;}
+.about-us .footer{position: absolute;bottom: 0;left: 0;width: 100%;height: 50px;line-height:40px;border-top: 1px solid #666666;font-size: 25px;font-weight: bold;}
+.about-us .footer .team{float: left;margin-left: 5px}
+.about-us .footer .squad{float: right;margin-right: 5px;}
+/*about-us 样式 ]]*/
 
 /*文章公共样式*/
 .magazine_pages{position: relative; width: 681px;height: 882px;background-color: #033649;font-family: 'helvetica neue', arial, 'hiragino sans gb', 'microsoft yahei', sans-serif;}
