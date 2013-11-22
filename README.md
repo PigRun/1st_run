@@ -3,20 +3,35 @@
 
 呜啦啦，在大家的热情响应下，小猪快跑第一期成功启航！期待更多精彩。
 
+## 目录结构
 
-### Demo汇总
+    - README.md  #说明文档
+    - demos  #demo目录
+      |----  index.html #demo预览
+      |----  rob
+      |----  bobb
+      |----  pping
+      |----  json
+      |----  pfhe
+    - docs  #文章
+      |----  ...
+    - pages  #文章单页
+      |----  ...
+    - psd  #psd
+      |----  ...
+    - source  #素材资源
+      |----  ...
+    - magazine  #杂志
+      |----  index.html
+      |----  css
+      |----  img
+    - index.html  #预览
+    - directory.png  #目录视图
+    
+## 目录结构预览
 
-- http://pigrun.github.io/1st_run/pping/pokonyan/pokonyan.html
-- http://pigrun.github.io/1st_run/pping/demo/demo.html
-- http://pigrun.github.io/1st_run/pping/gradient/gradient-pointer.html
-- http://pigrun.github.io/1st_run/pping/challenge/icon.html
-- http://pigrun.github.io/1st_run/pfhe/index.html
-- http://pigrun.github.io/1st_run/pfhe/t.html
-- http://pigrun.github.io/1st_run/pfhe/cube.html
-- http://pigrun.github.io/1st_run/pfhe/mike.html
-- http://pigrun.github.io/1st_run/pfhe/notes.html
-- http://pigrun.github.io/1st_run/rob/winsor
-- http://pigrun.github.io/1st_run/rob/fonticon
-- http://pigrun.github.io/1st_run/json/css3-icon/icon.html
-- [http://pigrun.github.io/1st_run/json/css region](http://pigrun.github.io/1st_run/json/css region)
-- http://pigrun.github.io/1st_run/bobb/登机牌/demo.html
+![目录结构](directory.png)
+    
+## 预览
+
++ [demo预览](http://pigrun.github.io/1st_run/demos/index.html)

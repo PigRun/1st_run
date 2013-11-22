@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8" />
+	<title>FontIcon</title>
+	<style>
+		@font-face{
+			font-family: "icon";
+			src: url("icon.otf") format("opentype");
+		}
+
+		div{
+			margin:50px;
+			padding:50px;
+			width:500px;
+			/*border:1px solid #ddd;*/
+			box-shadow: 0 0 1px 1px rgba(128,128,128,.3)
+		}
+
+		i{
+			font-family: "icon";
+			font-style: normal;
+		}
+		#container{
+			font-size:84px;
+			color:transparent;
+			background: -webkit-linear-gradient(top,red,blue);
+			-webkit-background-clip:text;
+		}
+		#colortext{
+			color:transparent;
+			background: -webkit-linear-gradient(left,red,yellow,green,blue,purple,red);
+			-webkit-background-clip:text;
+		}
+		#article{
+			/*width:400px;*/
+			font-size: 14px;
+			line-height: 2em;
+			color:transparent;
+			background: -webkit-linear-gradient(top,blue,red);
+			-webkit-background-clip:text;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<i>A</i>
+		<span>试试看</span>
+	</div>
+	<div id="colortext"><i>A</i>那些年，很流行的彩色字，它出去转了几年，现在又回来了！NB吧！</div>
+	<div id="article">
+		<h3>表现与逻辑分离</h3>
+		数据的最佳存储方式与数据的最佳表现方式很多时候并不一致。比如时间类型的数据，最佳的存储方式无疑是时间戳（如1377399298），而最佳的表现方式则是我们最<p>为熟悉的年月日的表示方式（如2013年8月25日）。此时就需要在数据展现前进行一些格式化。</p>
+		数据的格式化不像分支逻辑或者遍历逻辑那么简单，它是一个五花八门的工作。比如就时间而言，就有无数种格式，有时候需要2013年8月25日，有时候需要2013-08-25，有时候需要11:03，有时候需要2 mins <p>ago……更别说其它更多的数据类型了。因此，做数据格式化往往有一些专门的逻辑，简单一点的可能是一个小函数，复杂一点的则可能是类似moment.js之类的库。</p>
+		<p>于是，如何处理格式化库、业务逻辑、模板引擎的关系就成为一个很重要的问题。</p>
+		按照我崇尚的逻辑分离的思想，格式化代码不应该出现在业务代码中，最理想的方式是作为一个单独的文件外挂进来，然后由模板引擎直接调用。拿moment.<p>js为例，最理想的方式就是可以直接在模板中写类似这样的代码：表现与逻辑分离</p>
+		数据的最佳存储方式与数据的最佳表现方式很多时候并不一致。比如时间类型的数据，最佳的存储方式无疑是时间戳（如1377399298），而最佳的表现方式则是我们最<p>为熟悉的年月日的表示方式（如2013年8月25日）。此时就需要在数据展现前进行一些格式化。</p>
+		数据的格式化不像分支逻辑或者遍历逻辑那么简单，它是一个五花八门的工作。比如就时间而言，就有无数种格式，有时候需要2013年8月25日，有时候需要2013-08-25，有时候需要11:03，有时候需要2 mins <p>ago……更别说其它更多的数据类型了。因此，做数据格式化往往有一些专门的逻辑，简单一点的可能是一个小函数，复杂一点的则可能是类似moment.js之类的库。</p>
+		<p>于是，如何处理格式化库、业务逻辑、模板引擎的关系就成为一个很重要的问题。</p>
+		<p>按照我崇尚的逻辑分离的思想，格式化代码不应该出现在业务代码中，最理想的方式是作为一个单独的文件外挂进来，然后由模板引擎直接调用。拿moment.js为例，最理想的方式就是可以直接在模板中写类似这样的代码：</p>
+	</div>
+</body>
+</html>

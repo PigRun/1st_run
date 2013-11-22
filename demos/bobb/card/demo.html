@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登机牌</title>
+	<style>
+		body,html{
+			font-family: 'Microsoft JhengHei UI';
+			background-color: #333;
+		}
+		.container{
+			overflow: hidden;
+			width: 800px;
+			margin: 200px auto 0;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+		}
+		article{
+			float: right;
+		}
+		aside{
+			float: left;
+			display: block;
+			height: 240px;
+			width: 278px;
+			background-image: url('http://ww1.sinaimg.cn/large/6be469dcgw1e9n83r3gtuj20bu0a8gn7.jpg');
+			background-size: contain;
+		}
+		table{
+			background-color: #000;
+			border: 1px solid #000;
+			width: 500px;
+		}
+		th{
+			color: #fff;
+		}
+		td{
+			background-color: #646464;
+			border-left: 3px solid #000;
+			border-right: 3px solid #000;
+			color: #FFF399;
+			padding: 3px 10px;
+		}
+		tbody tr{
+			-webkit-animation: revolving 1s infinite;
+			-o-animation: revolving 1s infinite;
+			animation: revolving 1s infinite;
+			-webkit-transform-style: preserve-3d;
+		}
+		@-webkit-keyframes revolving{
+			0%,50%{
+				-webkit-transform: perspective(700px) rotateX(90deg);
+			}
+			75%{
+    			-webkit-transform: perspective(700px) rotateX(0deg);
+			}
+			100%{
+				-webkit-transform: perspective(700px) rotateX(-90deg);
+
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<article>
+			<h2>CSS 登机牌</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>计划时间</th>
+						<th>航班号</th>
+						<th>终点站</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>8:10</td>
+						<td>CZ3429</td>
+						<td>南充</td>
+					</tr>
+					<tr>
+						<td>10:55</td>
+						<td>MF8386</td>
+						<td>泉州</td>
+					</tr>
+					<tr>
+						<td>11:20</td>
+						<td>CZ3333</td>
+						<td>梅县</td>
+					</tr>
+					<tr>
+						<td>11:30</td>
+						<td>FM9304</td>
+						<td>上海虹桥</td>
+					</tr>
+					<tr>
+						<td>11:35</td>
+						<td>CZ3894</td>
+						<td>汕头</td>
+					</tr>
+				</tbody>
+			</table>	
+		</article>
+		<aside></aside>
+	</div>
+</body>
+</html>
