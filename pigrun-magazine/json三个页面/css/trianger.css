@@ -1,0 +1,57 @@
+body,p,h1{
+	margin:0;
+	padding:0;
+}
+.main{
+	width:700px;
+	background:#033649;
+	padding-bottom:20px;
+}
+.main_inner{
+	width:665px;
+	font-family: microsoft yahei;
+	font-size: 22px;
+	padding-top:20px;
+	line-height: 2em;
+	background:#fff;
+	padding-left: 15px;
+}
+h1{
+	height: 90px;
+	line-height: 90px;
+	font-size: 48px;
+	color:#fff;
+	float:right;
+	margin-right: 20px;
+	font-family: microsoft yahei;
+	font-weight: normal;
+}
+.clearfix{*zoom: 1; }
+.clearfix:before,.clearfix:after{ display: table; content: ""; line-height: 0;}
+.clearfix:after{ clear: both; }
+
+.left{
+	float:left;
+	width:280px;
+}
+.code{
+	display: block;
+	margin:0 auto;
+	width:439px;
+}
+.right{
+	float:right;
+	width:370px;
+}
+.three{
+	margin-top: -50px;
+}
+.star{
+	position: relative;
+	left:280px;
+	bottom:30px;
+}
+.tri{
+	position: relative;
+	left:150px;
+}
