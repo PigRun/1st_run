@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>立方体</title>
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 30px;
+}
+#box {
+	-webkit-perspective: 800;
+	-webkit-perspective-origin: 50% 200px;
+	-moz-perspective: 800;
+	-moz-perspective-origin: 50% 200px;
+}
+#cube {
+	position: relative;
+	margin: 100px auto 0;
+	height: 400px;
+	width: 400px;
+	-webkit-transition: -webkit-transform 2s linear;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: -moz-transform 2s linear;
+	-moz-transform-style: preserve-3d;
+}
+
+.face {
+	position: absolute;
+	height: 360px;
+	width: 360px;
+	padding: 20px;
+	background-color: rgba(50, 50, 50, 0.7);
+	text-align: center;
+	line-height: 360px;
+	font-size: 100px;
+	color: #fff;
+	border: 1px solid #555;
+	border-radius: 3px;
+}
+
+#cube .one  {
+	-webkit-transform: translateZ(200px);
+	-moz-transform: translateZ(200px);
+}
+
+#cube .two {
+	-webkit-transform: rotateX(90deg) translateZ(200px);
+	-moz-transform: rotateX(90deg) translateZ(200px);
+}
+
+#cube .three {
+	-webkit-transform: rotateY(90deg) translateZ(200px);
+	-moz-transform: rotateY(90deg) translateZ(200px);
+}
+
+#cube .four {
+	-webkit-transform: rotateY(180deg) translateZ(200px);
+	-moz-transform: rotateY(180deg) translateZ(200px);
+}
+
+#cube .five {
+	-webkit-transform: rotateY(-90deg) translateZ(200px);
+	-moz-transform: rotateY(-90deg) translateZ(200px);
+}
+#cube .six {
+	-webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+	-moz-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+}
+</style>
+</head>
+<body>
+<div id="box">
+	<div id="cube">
+		<div class="one face">1</div>
+		<div class="two face">2</div>
+		<div class="three face">3</div>
+		<div class="four face">4</div>
+		<div class="five face">5</div>
+		<div class="six face">6</div>
+	</div>
+</div>
+<p>使用方向键可切换</p>
+<script type="text/javascript">
+var prevs = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' '),
+    transform,
+    el = document.createElement('div'),
+    body = document.body;
+
+for(var i = 0, l = prevs.length; i < l; i++) {
+    if(typeof el.style[prevs[i]] !== "undefined") {
+        transform = prevs[i];
+        break;
+    }
+}
+
+var xAngle = 0, yAngle = 0;
+body.onkeydown = function(event){
+    switch(event.keyCode) {
+        case 37:
+            yAngle -= 90;
+            break;
+        case 38:
+            xAngle += 90;
+            break;
+        case 39:
+            yAngle += 90;
+            break;
+        case 40:
+            xAngle -= 90;
+            break;
+    };
+    document.getElementById('cube').style[transform] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+};
+</script>	
+</body>
+</html>
