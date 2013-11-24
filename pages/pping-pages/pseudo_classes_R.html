@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>pseudo_classes_R</title>
+	<link rel="stylesheet" href="./css/magazine.css">
+</head>
+<body>
+	<article class="magazine_pages magazine_pages_r">
+		<h1>pseudo_classes</h1>
+		<section  class="magazine_content">
+			<div class="pseudo_classes_r">
+				<!-- Star challenge 开始 -->
+				<div class="challenge">
+					<i class="arrow-s3"></i>
+					<i class="arrow-s4"></i>
+					<i class="arrow-s6"></i>
+					<i class="arrow-s7"></i>
+					<i class="arrow-s10"></i>
+					<i class="arrow-s11"></i>
+					<div class="icon-waiting">
+						<i class="arrow-s10"></i>
+						<i class="arrow-s6"></i>
+					</div>
+				</div>
+				<!-- End challenge 开始 -->
+				<div class="lay_content">
+					<p>咦? 后面好像有些东西乱入了....对,接下来讲这些乱入的东西,弯曲的箭头是如何实现的?Json说: 用纯CSS实现嘛? 这样子在标签里面再加一个标签,利用里标签的伪类和圆角效果就可以做出这样子的东西出来. 上代码:</p>
+					<pre class="code_snippet">
+.curve{
+	height: 10px;
+	width: 15px;
+	top: 50%;
+	left: -10%;
+	border-bottom-left-radius:50px;
+	border-left:12px solid #aaa;
+	border-bottom:12px solid #aaa;
+}
+span{
+	width:40px;
+	height:40px;
+	float:left;
+	position: relative;
+	margin-left:20px;
+}</pre>
+				</div>
+				<p class="mt10 col_red">平姨摇了摇头,这个明明就可以用一个标签来实现,(卖萌地)说了一声:"看我的!":</p>
+				<div class="lay_content">
+					<pre class="code_snippet">
+.challenge i{
+	display: inline-block;
+	margin: 40px;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border: 20px solid #AAAAAA;
+}
+.challenge .arrow-s7{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	position: relative;
+	border-left:20px solid #AAAAAA;
+	border-color: transparent transparent transparent #AAAAAA;
+}
+.challenge .arrow-s7:after{
+	top: -18px;
+	left: -44px;
+	border-left:12px solid #AAAAAA;
+	border-bottom:12px solid #AAAAAA;
+	border-bottom-left-radius: 20px;
+}</pre>
+					<p class="mb20 col_blue">于是平姨完美用一个标签实现了箭头效果.</p>
+					<p>关于伪类的应用还有很多,可以有更多有趣的用法等待大家去挖掘.</p>
+				</div>
+			</div>
+		</section>
+	</article>
+</body>
+</html>
