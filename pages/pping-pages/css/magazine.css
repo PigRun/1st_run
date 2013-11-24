@@ -515,8 +515,8 @@ html, body {
 /*about-us 样式 ]]*/
 /*pseudo_classes_L 样式 [[*/
 .pseudo_classes_l article{
-  width: 700px;
-  height: 1000px;
+  width: 680px;
+  height: 980px;
   overflow: hidden;
   border-left: 18px solid #033649;
   padding: 0 15px 15px;
