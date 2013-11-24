@@ -1,0 +1,389 @@
+
+.ebook {
+	width:700px;
+	height:500px;
+	position:relative;
+	margin:0 auto;
+}
+.ebook input {
+	position:absolute;
+	left:-9999px;
+}
+.book {
+	width:700px;
+	height:550px;
+	position:relative;
+	z-index:100;
+	background:transparent;
+	overflow:hidden;
+	font-family:georgia, serif;
+}
+.rp {
+	width:535px;
+	height:600px;
+	position:absolute;
+	right:350px;
+	top:0px;
+	background:transparent;
+	overflow:hidden;
+	-webkit-transform-origin: 350px -900px;
+	-webkit-transform: rotate(-20.6deg);
+	-webkit-transition: 1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-origin: 350px -900px;
+	-moz-transform: rotate(-20.6deg);
+	-moz-transition: 1s;
+	-moz-transform-style: preserve-3d;
+	-o-transform-origin: 350px -900px;
+	-o-transform: rotate(-20.6deg);
+	-o-transition: 1s;
+	-o-transform-style: preserve-3d;
+	transform-origin: 350px -900px;
+	transform: rotate(-20.6deg);
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+.rpi {
+	width:350px;
+	height:500px;
+	position:absolute;
+	right:-315px;
+	top:188px;
+	background:#FFF;
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
+	background-image: linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
+	-webkit-transform-origin: 350px -900px;
+	-webkit-transform: rotate(20.6deg);
+	-webkit-transition: 1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-origin: 350px -900px;
+	-moz-transform: rotate(20.6deg);
+	-moz-transition: 1s;
+	-moz-transform-style: preserve-3d;
+	-o-transform-origin: 350px -900px;
+	-o-transform: rotate(20.6deg);
+	-o-transition: 1s;
+	-o-transform-style: preserve-3d;
+	transform-origin: 350px -900px;
+	transform: rotate(20.6deg);
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+.lp {
+	width:535px;
+	height:0px;
+	position:absolute;
+	right:350px;
+	top:0px;
+	background:transparent;
+	overflow:hidden;
+	-webkit-transform-origin: 350px -900px;
+	-webkit-transform: rotate(-20.6deg);
+	-webkit-transition: -webkit-transform 1s, height 0s 1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-origin: 350px -900px;
+	-moz-transform: rotate(-20.6deg);
+	-moz-transition: -moz-transform 1s, height 0s 1s;
+	-moz-transform-style: preserve-3d;
+	-o-transform-origin: 350px -900px;
+	-o-transform: rotate(-20.6deg);
+	-o-transition: -o-transform 1s, height 0s 1s;
+	-o-transform-style: preserve-3d;
+	transform-origin: 350px -900px;
+	transform: rotate(-20.6deg);
+	transition: transform 1s, height 0s 1s;
+	transform-style: preserve-3d;
+}
+.lpi {
+	width:350px;
+	height:500px;
+	position:absolute;
+	right:0px;
+	top:65px;
+	background:#FFF;
+	overflow:hidden;
+	-webkit-transform-origin: 350px -900px;
+	-webkit-transform: rotate(-21.2deg);
+	-webkit-transition: 1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-origin: 350px -900px;
+	-moz-transform: rotate(-21.2deg);
+	-moz-transition: 1s;
+	-moz-transform-style: preserve-3d;
+	-o-transform-origin: 350px -900px;
+	-o-transform: rotate(-21.2deg);
+	-o-transition: 1s;
+	-o-transform-style: preserve-3d;
+	transform-origin: 350px -900px;
+	transform: rotate(-21.2deg);
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+.book .p0 {
+	z-index:100;
+}
+.book .p1 {
+	z-index:99;
+}
+.book .p2 {
+	z-index:100;
+}
+.book .p3 {
+	z-index:98;
+}
+.book .p4 {
+	z-index:101;
+}
+.book .p5 {
+	z-index:97;
+}
+.book .p6 {
+	z-index:102;
+}
+.book .p7 {
+	z-index:96;
+}
+.book .p8 {
+	z-index:103;
+}
+.book .p9 {
+	z-index:95;
+}
+.book .p10 {
+	z-index:104;
+}
+.book .p11 {
+	z-index:94;
+}
+.book .p12 {
+	z-index:105;
+}
+.book .p13 {
+	z-index:93;
+}
+.book .p14 {
+	z-index:106;
+}
+.book .p15 {
+	z-index:92;
+}
+.book .p16 {
+	z-index:107;
+}
+.book .p17 {
+	z-index:91;
+}
+.book .p18 {
+	z-index:108;
+}
+.book .p19 {
+	z-index:90;
+}
+.book .p20 {
+	z-index:109;
+}
+.book .p21 {
+	z-index:89;
+}
+.book .p22 {
+	z-index:110;
+}
+.book .p23 {
+	z-index:88;
+}
+
+#p1:checked ~ .book .p1,
+#p2:checked ~ .book .p3,
+#p3:checked ~ .book .p5,
+#p4:checked ~ .book .p7,
+#p5:checked ~ .book .p9,
+#p6:checked ~ .book .p11,
+#p7:checked ~ .book .p13,
+#p8:checked ~ .book .p15,
+#p9:checked ~ .book .p17,
+#p10:checked ~ .book .p19,
+#p11:checked ~ .book .p21
+{
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform: rotate(0deg);
+	-moz-transform-style: preserve-3d;
+	-o-transform: rotate(0deg);
+	-o-transform-style: preserve-3d;
+	transform: rotate(0deg);
+	transform-style: preserve-3d;
+}
+#p1:checked ~ .book .p1 .rpi,
+#p2:checked ~ .book .p3 .rpi,
+#p3:checked ~ .book .p5 .rpi,
+#p4:checked ~ .book .p7 .rpi,
+#p5:checked ~ .book .p9 .rpi,
+#p6:checked ~ .book .p11 .rpi,
+#p7:checked ~ .book .p13 .rpi,
+#p8:checked ~ .book .p15 .rpi,
+#p9:checked ~ .book .p17 .rpi,
+#p10:checked ~ .book .p19 .rpi,
+#p11:checked ~ .book .p21 .rpi
+{
+	right:-350px;
+	top:0px;
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform: rotate(0deg);
+	-moz-transform-style: preserve-3d;
+	-o-transform: rotate(0deg);
+	-o-transform-style: preserve-3d;
+	transform: rotate(0deg);
+	transform-style: preserve-3d;
+}
+.book .p0,
+#p1:checked ~ .book .p2,
+#p2:checked ~ .book .p4,
+#p3:checked ~ .book .p6,
+#p4:checked ~ .book .p8,
+#p5:checked ~ .book .p10,
+#p6:checked ~ .book .p12,
+#p7:checked ~ .book .p14,
+#p8:checked ~ .book .p16,
+#p9:checked ~ .book .p18,
+#p10:checked ~ .book .p20,
+#p11:checked ~ .book .p22
+{
+	height:600px;
+	-webkit-transition: -webkit-transform 1s, height 0s 0s;
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: -moz-transform 1s, height 0s 0s;
+	-moz-transform: rotate(0deg);
+	-moz-transform-style: preserve-3d;
+	-o-transition: -o-transform 1s, height 0s 0s;
+	-o-transform: rotate(0deg);
+	-o-transform-style: preserve-3d;
+	transition: transform 1s, height 0s 0s;
+	transform: rotate(0deg);
+	transform-style: preserve-3d;
+}
+.book .p0 .lpi,
+#p1:checked ~ .book .p2 .lpi,
+#p2:checked ~ .book .p4 .lpi,
+#p3:checked ~ .book .p6 .lpi,
+#p4:checked ~ .book .p8 .lpi,
+#p5:checked ~ .book .p10 .lpi,
+#p6:checked ~ .book .p12 .lpi,
+#p7:checked ~ .book .p14 .lpi,
+#p8:checked ~ .book .p16 .lpi,
+#p9:checked ~ .book .p18 .lpi,
+#p10:checked ~ .book .p20 .lpi,
+#p11:checked ~ .book .p22 .lpi
+{
+	top:0px;
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform: rotate(0deg);
+	-moz-transform-style: preserve-3d;
+	-o-transform: rotate(0deg);
+	-o-transform-style: preserve-3d;
+	transform: rotate(0deg);
+	transform-style: preserve-3d;
+}
+.book .lpi b {
+	display:block;
+	width:50px;
+	height:550px;
+	background:#eee;
+	position:absolute;
+	right:0;
+	top:0;
+	box-shadow:5px 0 5px rgba(0,0,0,0.5);
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
+	background-image: -moz-linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
+	background-image: -o-linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
+	background-image: linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
+	-webkit-transform-origin: 50px -900px;
+	-webkit-transform: rotate(21.2deg);
+	-webkit-transition: 1s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-origin: 50px -900px;
+	-moz-transform: rotate(21.2deg);
+	-moz-transition: 1s;
+	-moz-transform-style: preserve-3d;
+	-o-transform-origin: 50px -900px;
+	-o-transform: rotate(21.2deg);
+	-o-transition: 1s;
+	-o-transform-style: preserve-3d;
+	transform-origin: 50px -900px;
+	transform: rotate(21.2deg);
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+.book .p0 .lpi b,
+#p1:checked ~ .book .p2 .lpi b,
+#p2:checked ~ .book .p4 .lpi b,
+#p3:checked ~ .book .p6 .lpi b,
+#p4:checked ~ .book .p8 .lpi b,
+#p5:checked ~ .book .p10 .lpi b,
+#p6:checked ~ .book .p12 .lpi b,
+#p7:checked ~ .book .p14 .lpi b,
+#p8:checked ~ .book .p16 .lpi b,
+#p9:checked ~ .book .p18 .lpi b,
+#p10:checked ~ .book .p20 .lpi b,
+#p11:checked ~ .book .p22 .lpi b
+{
+	top:0px;
+	-webkit-transform: rotate(0deg);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform: rotate(0deg);
+	-moz-transform-style: preserve-3d;
+	-o-transform: rotate(0deg);
+	-o-transform-style: preserve-3d;
+	transform: rotate(0deg);
+	transform-style: preserve-3d;
+}
+.book .text {
+	width: 340px;
+	height: 490px;
+	position: relative;
+	z-index: 3000;
+	overflow-y: scroll;
+	padding: 5px;
+}
+.book .text .PageContent {
+	zoom: 0.5;
+}
+.book .pager {
+	position: fixed;
+	left: 50%;
+	bottom: 5px;
+	width: 40px;
+	margin-left: -20px;
+	text-align: center;
+	background: rgba(204,0,0,0.5);
+	color: #fff;
+	border-radius: 15px;
+	font-family: Tahoma, sans-serif;
+	z-index: 5000;
+}
+.book label {
+	display:none;
+	width:50px;
+	height:500px;
+	position:absolute;
+	top:0;
+	cursor:pointer;
+	z-index: 8000;
+}
+.book .rpi:hover label {
+	display:block;
+}
+.book .lpi:hover label {
+	display:block;
+}
+
+.book .rpi label {
+	right:0;
+}
+.book .lpi label {
+	left:0;
+}
