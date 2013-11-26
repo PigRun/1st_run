@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>三角形</title>
+	<style>
+
+		*{
+			margin:0;
+			padding:0;
+		}
+
+		body{
+			width:680px;
+		}
+
+		h1{
+			color:white;
+			font-size:48px;
+			padding:30px 10px 20px;
+		}
+
+		.container{
+			background: #013548;
+			padding-bottom:10px;
+		}
+
+		.content{
+			margin:0 10px;
+			padding:15px;
+			font-size:22px;
+			line-height: 2em;
+			background: white;
+			text-indent: 2em;
+		}
+		.content .part1{
+			-webkit-columns:3;
+		}
+
+		.content .preview{
+			float:left;
+		}
+
+		.content pre{
+			font-size: 12px;
+			vertical-align: top;
+			padding:10px 5px 10px 380px;
+			background:#eee;
+			text-indent: 0;
+			line-height: 3em;
+		}
+
+		.content pre code{
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>三角形</h1>
+		<div class="content">
+			<div class="part1">
+			<p>最后一篇当然是帮主的压箱作品. 帮主一开始希望利用这个召唤出神兽,千秋万代一统江湖,无论结果怎样,帮主能做出这个效果,那真真是极好的.据帮主说,这个难点并不在于形状本身,而在于圆角和不封闭.这里同样使用了伪类,将一个三角形三条边分别划分到两个伪类和本身的border里,然后使用transform来进行图像变换.在这里我们要将这个案例做一个比较完整的步骤剖析,来结束我们这本css3杂志:<!-- 1.首先,我们的目标图形是:大家可以看到左边微微翘起,所以代码应该是:这个样子的.用border-radius来实现;2. 第一步太简单了,然后第二步呢?我们应该做出第二条边,然后用tramsform将其旋转.自然是用after伪类来做,如果我们希望用一个标签实现这个三角形的话.最后可以发现图形已经变成这样了: --></p>
+			</div>
+			<img src="./trangle-1.png" class="preview" />
+			<pre><code>display: inline-block;
+position: relative;
+width: 200px;
+height: 200px;
+border-bottom: 3px solid green;
+border-bottom-left-radius: 5px;
+-webkit-transform: rotateZ(-60deg);
+			</code></pre>
+		</div>
+	</div>
+</body>
+</html>

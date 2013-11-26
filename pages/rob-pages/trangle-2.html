@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>三角形</title>
+	<style>
+
+		*{
+			margin:0;
+			padding:0;
+		}
+
+		body{
+			width:680px;
+		}
+
+		h1{
+			color:white;
+			text-align: right;
+			font-size:48px;
+			padding:30px 10px 20px;
+		}
+
+		.container{
+			background: #013548;
+			padding-bottom:10px;
+		}
+
+		.content{
+			margin:0 10px;
+			padding:15px;
+			font-size:22px;
+			line-height: 2em;
+			background: white;
+			text-indent: 2em;
+		}
+		.content .part1{
+			-webkit-columns:2;
+		}
+
+		.content .preview{
+			/*float:left;*/
+		}
+
+		.content pre{
+			font-size: 12px;
+			vertical-align: top;
+			padding:10px 5px;
+			background:#eee;
+			text-indent: 0;
+			line-height: 3em;
+		}
+
+		.content pre code{
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>三角形</h1>
+		<div class="content">
+			<div class="part1">
+			<p>1.首先，我们的目标图形是:大家可以看到左边微微翘起，用border-radius来实现。所以代码应该是这个样子的：
+			<img src="./trangle-2.png" class="preview" /><br />
+			<pre><code>width: 200px;
+height: 200px;
+border-bottom: 3px solid green;
+border-bottom-left-radius: 5px;</code></pre></p>
+
+			<p>2.第一步太简单了，然后第二步呢?<br />
+			<img src="./trangle-3.png" class="preview" />
+			<br />我们应该做出第二条边，然后用tramsform将其旋转。自然是用after伪类来做,如果我们希望用一个标签实现这个三角形的话。最后可以发现图形已经变成这样了:<br />
+			
+			<pre><code>display: inline-block;
+position: relative;
+width: 200px;
+height: 200px;
+border-bottom: 3px solid green;
+border-bottom-left-radius: 5px;
+-webkit-transform: rotateZ(-60deg);
+			</code></pre>
+
+			<img src="./trangle-4.png" class="preview" />
+			</p>
+			<p>
+			我觉得再详细写出第三步有种拉低大家智商的感觉，请读者自己实现。
+			</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
