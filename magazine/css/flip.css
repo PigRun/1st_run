@@ -1,4 +1,3 @@
-
 .ebook {
 	width:700px;
 	height:500px;
@@ -30,14 +29,6 @@
 	-webkit-transform: rotate(-20.6deg);
 	-webkit-transition: 1s;
 	-webkit-transform-style: preserve-3d;
-	-moz-transform-origin: 350px -900px;
-	-moz-transform: rotate(-20.6deg);
-	-moz-transition: 1s;
-	-moz-transform-style: preserve-3d;
-	-o-transform-origin: 350px -900px;
-	-o-transform: rotate(-20.6deg);
-	-o-transition: 1s;
-	-o-transform-style: preserve-3d;
 	transform-origin: 350px -900px;
 	transform: rotate(-20.6deg);
 	transition: 1s;
@@ -50,22 +41,10 @@
 	right:-315px;
 	top:188px;
 	background:#FFF;
-	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
-	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
-	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
-	background-image: linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0, 0) 100%);
 	-webkit-transform-origin: 350px -900px;
 	-webkit-transform: rotate(20.6deg);
 	-webkit-transition: 1s;
 	-webkit-transform-style: preserve-3d;
-	-moz-transform-origin: 350px -900px;
-	-moz-transform: rotate(20.6deg);
-	-moz-transition: 1s;
-	-moz-transform-style: preserve-3d;
-	-o-transform-origin: 350px -900px;
-	-o-transform: rotate(20.6deg);
-	-o-transition: 1s;
-	-o-transform-style: preserve-3d;
 	transform-origin: 350px -900px;
 	transform: rotate(20.6deg);
 	transition: 1s;
@@ -83,14 +62,6 @@
 	-webkit-transform: rotate(-20.6deg);
 	-webkit-transition: -webkit-transform 1s, height 0s 1s;
 	-webkit-transform-style: preserve-3d;
-	-moz-transform-origin: 350px -900px;
-	-moz-transform: rotate(-20.6deg);
-	-moz-transition: -moz-transform 1s, height 0s 1s;
-	-moz-transform-style: preserve-3d;
-	-o-transform-origin: 350px -900px;
-	-o-transform: rotate(-20.6deg);
-	-o-transition: -o-transform 1s, height 0s 1s;
-	-o-transform-style: preserve-3d;
 	transform-origin: 350px -900px;
 	transform: rotate(-20.6deg);
 	transition: transform 1s, height 0s 1s;
@@ -108,14 +79,6 @@
 	-webkit-transform: rotate(-21.2deg);
 	-webkit-transition: 1s;
 	-webkit-transform-style: preserve-3d;
-	-moz-transform-origin: 350px -900px;
-	-moz-transform: rotate(-21.2deg);
-	-moz-transition: 1s;
-	-moz-transform-style: preserve-3d;
-	-o-transform-origin: 350px -900px;
-	-o-transform: rotate(-21.2deg);
-	-o-transition: 1s;
-	-o-transform-style: preserve-3d;
 	transform-origin: 350px -900px;
 	transform: rotate(-21.2deg);
 	transition: 1s;
@@ -208,10 +171,6 @@
 {
 	-webkit-transform: rotate(0deg);
 	-webkit-transform-style: preserve-3d;
-	-moz-transform: rotate(0deg);
-	-moz-transform-style: preserve-3d;
-	-o-transform: rotate(0deg);
-	-o-transform-style: preserve-3d;
 	transform: rotate(0deg);
 	transform-style: preserve-3d;
 }
@@ -231,10 +190,6 @@
 	top:0px;
 	-webkit-transform: rotate(0deg);
 	-webkit-transform-style: preserve-3d;
-	-moz-transform: rotate(0deg);
-	-moz-transform-style: preserve-3d;
-	-o-transform: rotate(0deg);
-	-o-transform-style: preserve-3d;
 	transform: rotate(0deg);
 	transform-style: preserve-3d;
 }
@@ -255,12 +210,6 @@
 	-webkit-transition: -webkit-transform 1s, height 0s 0s;
 	-webkit-transform: rotate(0deg);
 	-webkit-transform-style: preserve-3d;
-	-moz-transition: -moz-transform 1s, height 0s 0s;
-	-moz-transform: rotate(0deg);
-	-moz-transform-style: preserve-3d;
-	-o-transition: -o-transform 1s, height 0s 0s;
-	-o-transform: rotate(0deg);
-	-o-transform-style: preserve-3d;
 	transition: transform 1s, height 0s 0s;
 	transform: rotate(0deg);
 	transform-style: preserve-3d;
@@ -288,35 +237,46 @@
 	transform: rotate(0deg);
 	transform-style: preserve-3d;
 }
-.book .lpi b {
+.book .rpi b {
 	display:block;
-	width:50px;
+	width:80px;
 	height:550px;
-	background:#eee;
 	position:absolute;
-	right:0;
+	left:0;
 	top:0;
-	box-shadow:5px 0 5px rgba(0,0,0,0.5);
-	background-image: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
-	background-image: -moz-linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
-	background-image: -o-linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
-	background-image: linear-gradient(left, rgba(255,255,255,1), rgba(0, 0, 0, 0.2));
+	z-index: 9999;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%);
+	opacity: 0.5;
 	-webkit-transform-origin: 50px -900px;
-	-webkit-transform: rotate(21.2deg);
 	-webkit-transition: 1s;
 	-webkit-transform-style: preserve-3d;
-	-moz-transform-origin: 50px -900px;
-	-moz-transform: rotate(21.2deg);
-	-moz-transition: 1s;
-	-moz-transform-style: preserve-3d;
-	-o-transform-origin: 50px -900px;
-	-o-transform: rotate(21.2deg);
-	-o-transition: 1s;
-	-o-transform-style: preserve-3d;
 	transform-origin: 50px -900px;
 	transform: rotate(21.2deg);
 	transition: 1s;
 	transform-style: preserve-3d;
+	pointer-events:none
+}
+.book .lpi b {
+	display:block;
+	width:80px;
+	height:550px;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index: 9999;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 45%,rgba(0,0,0,0.4) 100%);
+	background-image: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 45%,rgba(0,0,0,0.4) 100%);
+	opacity: 0.5;
+	-webkit-transform-origin: 50px -900px;
+	-webkit-transform: rotate(21.2deg);
+	-webkit-transition: 1s;
+	-webkit-transform-style: preserve-3d;
+	transform-origin: 50px -900px;
+	transform: rotate(21.2deg);
+	transition: 1s;
+	transform-style: preserve-3d;
+	pointer-events:none
 }
 .book .p0 .lpi b,
 #p1:checked ~ .book .p2 .lpi b,
@@ -334,10 +294,6 @@
 	top:0px;
 	-webkit-transform: rotate(0deg);
 	-webkit-transform-style: preserve-3d;
-	-moz-transform: rotate(0deg);
-	-moz-transform-style: preserve-3d;
-	-o-transform: rotate(0deg);
-	-o-transform-style: preserve-3d;
 	transform: rotate(0deg);
 	transform-style: preserve-3d;
 }

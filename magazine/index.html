@@ -60,7 +60,7 @@
 	<div class="p1 rp">
 		<div class="p1p rpi">
 			<span class="pager">- 1 -</span>
-			<div class="text"><label for="p1"></label>
+			<div class="text"><b></b><label for="p1"></label>
 				<div class="PageContent catalog">
 					<h1>pig run</h1>
 					<ul class="catalog_items">
@@ -142,7 +142,7 @@
 	<div class="p3 rp">
 		<div class="p3p rpi">
 			<span class="pager">- 3 -</span>
-			<div class="text"><label for="p2"></label>
+			<div class="text"><b></b><label for="p2"></label>
 				<div class="PageContent bobb">
 					<article class="article_boxshadow">
 						<h2>Box-shadow？这才不是你想象中的box-shadow...</h2>
@@ -242,7 +242,7 @@
 	<div class="p5 rp">
 		<div class="p5p rpi">
 			<span class="pager">- 5 -</span>
-			<div class="text"><label for="p3"></label>
+			<div class="text"><b></b><label for="p3"></label>
 				<div class="PageContent bobb">
 					<article class="article_fonticon">
 						<h2>从Font-icon开始聊渐变怎么玩</h2>
@@ -303,8 +303,19 @@
 	<div class="p7 rp">
 		<div class="p7p rpi">
 			<span class="pager">- 7 -</span>
-			<div class="text"><label for="p4"></label>
-				empty
+			<div class="text"><b></b><label for="p4"></label>
+	<div class="PageContent container">
+		<h1>三维</h1>
+		<img src="img/3d-1.png" />
+		<div class="content">
+			<div class="part1">
+			<p>回首以前的日子，我们为了ie6日夜奋斗。但是现在CSS3已经让我们看到了web光明的未来。</p>
+			<p>在这之前，如果想在web上面实现一个3d效果，我们可能会想到flash 3D或者是 webGL，但是现在，Transform属性已经可以让每一个标签都变成一个Transformer。</p>
+			<p>扯了这么多的淡，无非就是想说，css3现在可以做3d了，而pf哥哥和bobb哥哥就给我们做出了两个css3 的3D demo。</p>
+			<p>首先是这个旋转的CSS3立方体:</p>
+			</div>
+		</div>
+	</div>
 			</div>
 		</div>
 	</div>
@@ -338,7 +349,7 @@
 	<div class="p9 rp">
 		<div class="p9p rpi">
 			<span class="pager">- 9 -</span>
-			<div class="text"><label for="p5"></label>
+			<div class="text"><b></b><label for="p5"></label>
 				<article class="PageContent magazine_pages magazine_pages_r">
 					<h1>Editor</h1>
 					<section class="magazine_content">
@@ -421,7 +432,7 @@ left:-13px;
 	<div class="p11 rp">
 		<div class="p11p rpi">
 			<span class="pager">- 11 -</span>
-			<div class="text"><label for="p6"></label>
+			<div class="text"><b></b><label for="p6"></label>
 	<article class="PageContent magazine_pages magazine_pages_r">
 		<h1>pseudo_classes</h1>
 		<section  class="magazine_content">
@@ -516,7 +527,7 @@ span{
 	<div class="p13 rp">
 		<div class="p13p rpi">
 			<span class="pager">- 13 -</span>
-			<div class="text"><label for="p7"></label>
+			<div class="text"><b></b><label for="p7"></label>
 <article class="PageContent magazine_pages magazine_pages_r">
 	<h1>进击的习题</h1>
 	<section class="magazine_content">
@@ -533,15 +544,64 @@ span{
 			<b></b>
 			<span class="pager">- 14 -</span>
 			<div class="text"><label for="p7"></label>
-				<p>三角形</p>
+	<div class="pageContent container">
+		<h1>三角形</h1>
+		<div class="content">
+			<div class="part1">
+			<p>最后一篇当然是帮主的压箱作品. 帮主一开始希望利用这个召唤出神兽,千秋万代一统江湖,无论结果怎样,帮主能做出这个效果,那真真是极好的.据帮主说,这个难点并不在于形状本身,而在于圆角和不封闭.这里同样使用了伪类,将一个三角形三条边分别划分到两个伪类和本身的border里,然后使用transform来进行图像变换.在这里我们要将这个案例做一个比较完整的步骤剖析,来结束我们这本css3杂志:<!-- 1.首先,我们的目标图形是:大家可以看到左边微微翘起,所以代码应该是:这个样子的.用border-radius来实现;2. 第一步太简单了,然后第二步呢?我们应该做出第二条边,然后用tramsform将其旋转.自然是用after伪类来做,如果我们希望用一个标签实现这个三角形的话.最后可以发现图形已经变成这样了: --></p>
+			</div>
+			<img src="img/trangle-1.png" class="preview" />
+			<pre><code>display: inline-block;
+position: relative;
+width: 200px;
+height: 200px;
+border-bottom: 3px solid green;
+border-bottom-left-radius: 5px;
+-webkit-transform: rotateZ(-60deg);
+			</code></pre>
+		</div>
+	</div>
 			</div>
 		</div>
 	</div>
 	<div class="p15 rp">
 		<div class="p15p rpi">
 			<span class="pager">- 15 -</span>
-			<div class="text"><label for="p8"></label>
-				<p>三角形</p>
+			<div class="text">
+				<b></b>
+				<label for="p8"></label>
+	<div class="PageContent container">
+		<h1>三角形</h1>
+		<div class="content">
+			<div class="part1">
+			<p>1.首先，我们的目标图形是:大家可以看到左边微微翘起，用border-radius来实现。所以代码应该是这个样子的：
+			<img src="img/trangle-2.png" class="preview" /><br />
+			<pre><code>width: 200px;
+height: 200px;
+border-bottom: 3px solid green;
+border-bottom-left-radius: 5px;</code></pre></p>
+
+			<p>2.第一步太简单了，然后第二步呢?<br />
+			<img src="img/trangle-3.png" class="preview" />
+			<br />我们应该做出第二条边，然后用tramsform将其旋转。自然是用after伪类来做,如果我们希望用一个标签实现这个三角形的话。最后可以发现图形已经变成这样了:<br />
+			
+			<pre><code>display: inline-block;
+position: relative;
+width: 200px;
+height: 200px;
+border-bottom: 3px solid green;
+border-bottom-left-radius: 5px;
+-webkit-transform: rotateZ(-60deg);
+			</code></pre>
+
+			<img src="img/trangle-4.png" class="preview" />
+			</p>
+			<p>
+			我觉得再详细写出第三步有种拉低大家智商的感觉，请读者自己实现。
+			</p>
+			</div>
+		</div>
+	</div>
 			</div>
 		</div>
 	</div>
@@ -549,60 +609,63 @@ span{
 		<div class="p16p lpi">
 			<b></b>
 			<span class="pager">- 16 -</span>
-			<div class="text"><label for="p8"></label>
-<div class="PageContent lp-wrap">
-    <h1>三维</h1>
-    <div class="container">
-        <h2>旋转的CSS3立方体:</h2>
-        <table class="tab-list">
-            <tr>
-                <th>Function</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td class="w30">Matrix3d(n,n,n,n,n,n,n,n,n,n,n ,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)</td>
-                <td>defines a 3D transformation,using a 4×4 match of 16 values</td>
-            </tr>
-            <tr>
-                <td class="w30">Matrix3d</td>
-                <td>defines a 3D transformation</td>
-            </tr>
-            <tr>
-                <td class="w30">Matrix3d</td>
-                <td>defines a 3D transformation,using a 4×4 match of 16 values</td>
-            </tr>
-        </table>
-        <div class="img-wrap">
-            <img src="img/cube1.jpg" alt="" title="" />
-        </div>
-    </div>
-</div>
+			<div class="text">
+				<label for="p8"></label>
+				<div class="PageContent lp-wrap">
+				    <h1>三维</h1>
+				    <div class="container">
+				        <h2>旋转的CSS3立方体:</h2>
+				        <table class="tab-list">
+				            <tr>
+				                <th>Function</th>
+				                <th>Description</th>
+				            </tr>
+				            <tr>
+				                <td class="w30">Matrix3d(n,n,n,n,n,n,n,n,n,n,n ,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)</td>
+				                <td>defines a 3D transformation,using a 4×4 match of 16 values</td>
+				            </tr>
+				            <tr>
+				                <td class="w30">Matrix3d</td>
+				                <td>defines a 3D transformation</td>
+				            </tr>
+				            <tr>
+				                <td class="w30">Matrix3d</td>
+				                <td>defines a 3D transformation,using a 4×4 match of 16 values</td>
+				            </tr>
+				        </table>
+				        <div class="img-wrap">
+				            <img src="img/cube1.jpg" alt="" title="" />
+				        </div>
+				    </div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="p17 rp">
 		<div class="p17p rpi">
 			<span class="pager">- 17 -</span>
-			<div class="text"><label for="p9"></label>
-<div class="PageContent rp-wrap">
-    <h1>三维</h1>
-    <div class="container">
-        <div class="img-wrap">
-            <img src="img/cube2.jpg" alt="" title="" />
-        </div>
-        <div class="content clearfix">
-            <div class="cfl">
-                <p>回首以前的日子，我们为了ie6日夜奋斗。但是现在CSS3已经让我们看到了web光明的未来。</p>
-                <p>在这之前，如果想在web上面实现一个3d效果，我们可能会想到flash 3D或者是 webGL，但是现在，Transform属性已经可以让每一个标签都变成一个Transformer。</p>
-            </div>
-            <div class="cfr">
-                <p>扯了这么多的淡,无非就是想说,css3现在可以做3d了,而pf哥哥和bobb哥哥就给我们做出了两个css3 的3D demo.</p>
-                <p>首先是这个旋转的</p>
-                <h2>CSS3立方体</h2>
-            </div>
-        </div>
-    </div>
-</div>
+			<div class="text">
+				<b></b>
+				<label for="p9"></label>
+				<div class="PageContent rp-wrap">
+				    <h1>三维</h1>
+				    <div class="container">
+				        <div class="img-wrap">
+				            <img src="img/cube2.jpg" alt="" title="" />
+				        </div>
+				        <div class="content clearfix">
+				            <div class="cfl">
+				                <p>回首以前的日子，我们为了ie6日夜奋斗。但是现在CSS3已经让我们看到了web光明的未来。</p>
+				                <p>在这之前，如果想在web上面实现一个3d效果，我们可能会想到flash 3D或者是 webGL，但是现在，Transform属性已经可以让每一个标签都变成一个Transformer。</p>
+				            </div>
+				            <div class="cfr">
+				                <p>扯了这么多的淡,无非就是想说,css3现在可以做3d了,而pf哥哥和bobb哥哥就给我们做出了两个css3 的3D demo.</p>
+				                <p>首先是这个旋转的</p>
+				                <h2>CSS3立方体</h2>
+				            </div>
+				        </div>
+				    </div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -611,14 +674,23 @@ span{
 			<b></b>
 			<span class="pager">- 18 -</span>
 			<div class="text"><label for="p9"></label>
-				<p>排版</p>
+	<div class="PageContent container">
+		<h1>文字排版</h1>
+		<div class="content">
+			<div class="part1">
+			<img src="img/typography-1.png" />
+			</div>
+		</div>
+	</div>
 			</div>
 		</div>
 	</div>
 	<div class="p19 rp ">
 		<div class="p19p rpi">
 			<span class="pager">- 19 -</span>
-			<div class="text"><label for="p10"></label>
+			<div class="text">
+				<b></b>
+				<label for="p10"></label>
 				<p>排版</p>
 			</div>
 		</div>
