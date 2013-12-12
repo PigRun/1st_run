@@ -1,5 +1,12 @@
+@charset 'utf-8';
+/*
+ * Copy Right: Tencent CDC
+ * Project: 小猪快跑
+ * Comments: CSS3篇
+ * @author: ppinghzou
+*/
 /*about-us 样式 [[*/
-.about-us{position: relative; width: 680px;height: 980px;overflow:hidden;font-family: "张海山锐线体简";color: #000;}
+.about-us{position: relative; width: 700px;height: 1000px;overflow:hidden;font-family: "张海山锐线体简";color: #000;}
 .icon-footprints{position: absolute;top: 80px;left: 45px; width: 22px;height: 22px;overflow: hidden;background: url(../img/icon-footprints.png) no-repeat;-webkit-transform:rotate(-7deg);}
 .footprints1{top: 65px;left: 110px; -webkit-transform:rotate(-7deg);}
 .footprints2{top: 50px;left: 200px; -webkit-transform:rotate(-7deg);}
@@ -27,13 +34,13 @@
 .about-us h1{margin-top:90px;font-size: 50px;font-weight: bold; text-align: center;}
 .about-us .logo{margin: 50px 0 ;text-align: center;}
 .about-us .member{margin-top: 80px;}
-.about-us .member li{float: left;margin:0 17px;width: 101px;text-align: center;}
+.about-us .member li{float: left;margin:0 19px;width: 101px;text-align: center;}
 .about-us .member .photo{width: 101px;height: 101px;border-radius: 50%;font-size: 60px;-webkit-box-reflect: below 3px -webkit-gradient(linear, 0% 70%, 0% 100%, from(transparent),color-stop(0.7,rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 1)));}
-.about-us .member .photo img{height: 101px;vertical-align: middle;border-radius: 50%;box-shadow: 0 0 10px rgba(0,0,0,0.3);-webkit-transition: all 0.3s ease-in;}
+.about-us .member .photo img{height: 101px;vertical-align: middle;border-radius: 50%;box-shadow: 0 0 10px rgba(0,0,0,0.3)}
 .about-us .member .photo:hover img{-webkit-transform:scale(1.1,1.1);cursor: pointer;-webkit-transform-origin:center bottom;}
 .about-us .member .name{margin-bottom:15px;font-size: 18px;font-weight: bold;}
 .about-us .signature{margin-top: 100px;text-align: center;font-size: 31px;font-weight: bold;color: #080808;}
-.about-us .footer{position: absolute;bottom: 0;left: 0;width: 100%;height: 50px;line-height:40px;border-top: 1px solid #666666;font-size: 25px;font-weight: bold;}
+.about-us .footer{position: absolute;bottom: 0;left: 0;width: 100%;height: 50px;line-height:50px;border-top: 1px solid #666666;font-size: 25px;font-weight: bold;}
 .about-us .footer .team{float: left;margin-left: 5px}
 .about-us .footer .squad{float: right;margin-right: 5px;}
 /*about-us 样式 ]]*/

@@ -1,0 +1,39 @@
+@charset 'utf-8';
+/*
+ * Copy Right: Tencent CDC
+ * Project: 小猪快跑
+ * Comments: CSS3篇
+ * @author: ppinghzou
+*/
+/*文章公共样式*/
+.magazine_pages{position: relative; width: 681px;height: 882px;background-color: #033649;font-family: 'helvetica neue', arial, 'hiragino sans gb', 'microsoft yahei', sans-serif;}
+.magazine_pages h1{position: absolute;top: 20px;left:18px;width:681px; font-size: 48px; color: #fff;font-weight: normal;}
+.magazine_pages .magazine_content{width:100%;height:100%; background-color: #fff;}
+
+.code_snippet{
+  margin: 20px 5px;
+  padding: 10px;
+  border: 1px dotted #778855;
+  background-color: #F5F5F5;
+  font-family: 'helvetica neue', arial, 'hiragino sans gb', 'microsoft yahei', sans-serif;
+  font-size: 14px;
+  white-space: pre-wrap;
+  line-height: 22px;
+}
+.lay_content{
+  margin-top: -15px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+.col_red{color: red;}
+.mb20{margin-bottom: 20px}
+.mt10{margin-top: 10px}
+  /*左页样式*/
+.magazine_pages_l{padding: 100px 1px 18px 18px;}
+.magazine_pages_l h1{left:18px;text-align: left;}
+  /*右页样式*/
+.magazine_pages_r{padding: 100px 18px 18px 1px;}
+.magazine_pages_r h1{left: auto; right:18px;text-align: right;}
+/*鸣谢*/
+.thx{text-align: center;padding-top: 350px;font-size: 60px;font-weight: bold;}

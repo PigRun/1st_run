@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 
+ * Comments: 
+ * @author: pf
+*/
+.three_area{
+    overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+.three_area h2{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.three_area .tab-list{
+    margin: 0 20px 40px;
+    border-collapse: collapse;
+}
+.three_area .tab-list th{
+    background: #575757;
+    font-weight:500px;
+    height: 26px;
+    text-align: left;
+    color: #fff;
+    border:1px solid #575757;
+}
+.three_area .tab-list td{
+    height: 24px;
+    padding: 0 7px;
+    word-break: break-all;
+    border:1px solid #858585;
+}
+.three_area .tab-list td.w30{
+    width: 30%;
+}
+.three_area .img-wrap{
+    margin: 0 20px 0;
+}
+
+.three_area2  p{
+    font-size: 20px;
+    line-height:1.5em;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+.three_area2 .cfl{
+    float: left;
+    width: 44%;
+    padding: 10px 20px
+}
+.three_area2 .cfr{
+    float: right;
+    width: 44%;
+    padding: 10px 20px
+}
+.three_area2  h2{
+	font-size: 45px;
+    color: #263a6d;
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+}

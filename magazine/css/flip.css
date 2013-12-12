@@ -1,4 +1,5 @@
 .ebook {
+	padding-top: 15px;
 	width:700px;
 	height:500px;
 	position:relative;
@@ -239,14 +240,14 @@
 }
 .book .rpi b {
 	display:block;
-	width:80px;
-	height:550px;
+	width:60px;
+	height:50px;
 	position:absolute;
 	left:0;
 	top:0;
 	z-index: 9999;
-	background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%);
-	background-image: linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
 	opacity: 0.5;
 	-webkit-transform-origin: 50px -900px;
 	-webkit-transition: 1s;
@@ -259,14 +260,14 @@
 }
 .book .lpi b {
 	display:block;
-	width:80px;
+	width:60px;
 	height:550px;
 	position:absolute;
 	right:0;
 	top:0;
 	z-index: 9999;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 45%,rgba(0,0,0,0.4) 100%);
-	background-image: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 45%,rgba(0,0,0,0.4) 100%);
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(0,0,0,0.4) 100%);
+	background-image: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(0,0,0,0.4) 100%);
 	opacity: 0.5;
 	-webkit-transform-origin: 50px -900px;
 	-webkit-transform: rotate(21.2deg);
@@ -298,12 +299,11 @@
 	transform-style: preserve-3d;
 }
 .book .text {
-	width: 340px;
-	height: 490px;
+	width: 350px;
+	height: 500px;
 	position: relative;
 	z-index: 3000;
-	overflow-y: scroll;
-	padding: 5px;
+	overflow: hidden;
 }
 .book .text .PageContent {
 	zoom: 0.5;
@@ -311,12 +311,13 @@
 .book .pager {
 	position: fixed;
 	left: 50%;
-	bottom: 5px;
+	bottom: 2px;
 	width: 40px;
 	margin-left: -20px;
 	text-align: center;
-	background: rgba(204,0,0,0.5);
+	background: #063B49;
 	color: #fff;
+	border: 1px solid #fff;
 	border-radius: 15px;
 	font-family: Tahoma, sans-serif;
 	z-index: 5000;

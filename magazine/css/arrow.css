@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 
+ * Comments: 
+ * @author: rob
+*/
+
+.arrow_area{
+	padding: 10px;
+	font-size: 16px;
+}
+.arrow_area .part1{
+    -webkit-columns:3;
+    -moa-columns:3;
+    columns:3;
+    padding-left: 10px;
+    line-height: 45px;
+}
+.arrow_area .part2{
+    -webkit-columns:2;
+    -moa-columns:2;
+    columns:2;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.arrow_area .preview{
+    float:left;
+    margin:15px;
+}
+
+.arrow_area pre{
+    font-size: 12px;
+    vertical-align: top;
+    padding:10px;
+    background:#eee;
+    text-indent: 0;
+    line-height: 3em;
+}

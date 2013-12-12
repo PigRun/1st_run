@@ -1,3 +1,11 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 小猪快跑
+ * Comments: CSS3篇
+ * @author: ppinghzou
+*/
+/*pseudo_classes_L 样式 [[*/
 .pseudo_classes_l article{
   width: 680px;
   height: 980px;
@@ -64,3 +72,206 @@ section .pseudo_classes_l{
   bottom: -18px;
   left:-13px;
 }
+/*pseudo_classes_L 样式 ]]*/
+/*pseudo_classes_R 样式 [[*/
+.waiting{
+    position:relative;
+    width:84px;
+    height:60px;
+    float:left;
+    -webkit-animation: waiting-animate 1s linear infinite;
+    margin-left:50px;
+}
+@-webkit-keyframes waiting-animate{
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+/*Star challenge 开始*/
+.challenge i{
+  display: inline-block;
+  margin: 23px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border: 20px solid #AAAAAA;
+}
+.challenge i:after,
+.challenge i:before{
+  content: '';
+}
+.challenge .arrow-s1,
+.challenge .arrow-s5,     
+.challenge .arrow-s9{
+  position: relative;
+  border-bottom:20px solid #AAAAAA;
+  border-color: transparent transparent #AAAAAA transparent;
+}
+.challenge .arrow-s2,     
+.challenge .arrow-s8,
+.challenge .arrow-s12{
+  position: relative;
+  border-top:20px solid #AAAAAA;
+  border-color:#AAAAAA transparent transparent transparent;
+}
+.challenge .arrow-s3,
+.challenge .arrow-s6,
+.challenge .arrow-s11{
+  position: relative;
+  border-right:20px solid #AAAAAA;
+  border-color: transparent #AAAAAA transparent transparent;
+}
+.challenge .arrow-s4,
+.challenge .arrow-s7,
+.challenge .arrow-s10{
+  position: relative;
+  border-left:20px solid #AAAAAA;
+  border-color: transparent transparent transparent #AAAAAA;
+}
+.challenge .arrow-s1:after,
+.challenge .arrow-s2:after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 20px;
+  background-color: #000;
+  font-size: 0;
+  line-height: 0;
+  border-left: 12px solid #AAAAAA;
+}
+.challenge .arrow-s1:after{
+  top: 20px;
+  left: -6px;
+}
+.challenge .arrow-s2:after{
+  top: -40px;
+  left: -6px;
+}
+.challenge .arrow-s3:after,
+.challenge .arrow-s4:after{
+  position: absolute;
+  width: 20px;
+  height: 0px;
+  background-color: #000;
+  font-size: 0;
+  line-height: 0;
+  border-top: 12px solid #AAAAAA;
+}
+.challenge .arrow-s3:after{
+  top: -6px;
+  left: 20px;
+}
+.challenge .arrow-s4:after{
+  top: -6px;
+  left: -40px;
+}
+.challenge .arrow-s5:after,
+.challenge .arrow-s6:after,
+.challenge .arrow-s7:after,
+.challenge .arrow-s8:after,
+.challenge .arrow-s9:after,
+.challenge .arrow-s10:after,
+.challenge .arrow-s11:after,
+.challenge .arrow-s12:after{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+.challenge .arrow-s5:after{
+  top: 20px;
+  left: -6px;
+  border-left:12px solid #AAAAAA;
+  border-bottom:12px solid #AAAAAA;
+  border-bottom-left-radius: 20px;
+}
+.challenge .arrow-s6:after{
+  top: -18px;
+  left: 20px;
+  border-right:12px solid #AAAAAA;
+  border-bottom:12px solid #AAAAAA;
+  border-bottom-right-radius: 20px;
+}
+.challenge .arrow-s7:after{
+  top: -18px;
+  left: -44px;
+  border-left:12px solid #AAAAAA;
+  border-bottom:12px solid #AAAAAA;
+  border-bottom-left-radius: 20px;
+}
+.challenge .arrow-s8:after{
+  top: -44px;
+  left: -18px;
+  border-top:12px solid #AAAAAA;
+  border-right:12px solid #AAAAAA;
+  border-top-right-radius: 20px;
+}
+.challenge .arrow-s9:after{
+  top: 20px;
+  left: -18px;
+  border-right:12px solid #AAAAAA;
+  border-bottom:12px solid #AAAAAA;
+  border-bottom-right-radius: 20px;
+}
+.challenge .arrow-s10:after{
+  top: -6px;
+  left: -44px;
+  border-top:12px solid #AAAAAA;
+  border-left:12px solid #AAAAAA;
+  border-top-left-radius: 20px;
+}
+.challenge .arrow-s11:after{
+  top: -6px;
+  left: 20px;
+  border-top:12px solid #AAAAAA;
+  border-right:12px solid #AAAAAA;
+  border-top-right-radius: 20px;
+}
+.challenge .arrow-s12:after{
+  top: -44px;
+  left: -6px;
+  border-top:12px solid #AAAAAA;
+  border-left:12px solid #AAAAAA;
+  border-top-left-radius: 20px;
+}
+.icon-waiting{
+  display: inline-block;
+  position: relative;
+  width: 70px;
+  height: 90px;
+  margin-left: 30px;
+  -webkit-animation: waiting-animate 1s linear infinite;
+}
+.icon-waiting i{
+  position: absolute;
+  margin: 0;
+}
+.icon-waiting .arrow-s10{
+  left: 25px;       
+}
+.icon-waiting .arrow-s10:after{
+  height: 35px;
+  border-bottom-left-radius:20px;
+  border-bottom: 12px solid #AAAAAA;
+}
+.icon-waiting .arrow-s6{
+  left: 5px;
+  top: 8px;
+}
+.icon-waiting .arrow-s6:after{
+  top: -56px;
+  height: 35px;
+  border-top-right-radius:20px;
+  border-top: 12px solid #AAAAAA;
+}
+/*End challenge 开始*/
+.pseudo_classes_r{
+  padding: 0 10px 10px;
+  font-family: 'helvetica neue', arial, 'hiragino sans gb', 'microsoft yahei', sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+/*pseudo_classes_R 样式 ]]*/

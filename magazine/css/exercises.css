@@ -1,3 +1,11 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 小猪快跑
+ * Comments: CSS3篇
+ * @author: ppinghzou
+*/
+/*exercises_l [[*/
 .exercises_l h2{
   padding: 90px 0;
   font-size: 28px;
@@ -50,3 +58,4 @@
   font-size: 50px;
   font-weight: normal;
 }
+  /*exercises_r ]]*/
