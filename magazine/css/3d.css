@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 
+ * Comments: 
+ * @author: pf
+*/
+.three_area{
+    overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+.three_area h2{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.three_area .tab-list{
+    margin: 0 20px 40px;
+    border-collapse: collapse;
+}
+.three_area .tab-list th{
+    background: #575757;
+    font-weight:500px;
+    height: 26px;
+    text-align: left;
+    color: #fff;
+    border:1px solid #575757;
+}
+.three_area .tab-list td{
+    height: 24px;
+    padding: 0 7px;
+    word-break: break-all;
+    border:1px solid #858585;
+}
+.three_area .tab-list td.w30{
+    width: 30%;
+}
+.three_area .img-wrap{
+    margin: 0 20px 0;
+}
+
+.three_area2  p{
+    font-size: 20px;
+    line-height:1.5em;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+.three_area2 .cfl{
+    float: left;
+    width: 44%;
+    padding: 10px 20px
+}
+.three_area2 .cfr{
+    float: right;
+    width: 44%;
+    padding: 10px 20px
+}
+.three_area2  h2{
+	font-size: 45px;
+    color: #263a6d;
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+}
+/*登机牌效果*/
+.three_area .djp_demo{
+    position: relative;
+    overflow: hidden;
+    width: 620px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.three_area .djp_demo .font_special{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #E72252;
+}
+.three_area .djp_demo .text{
+    position: absolute;
+    left: 330px;
+    top: 70px;
+    width: 265px;
+    height: 140px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.three_area .djp_demo aside{
+    display: block;
+    height: 240px;
+    width: 278px;
+    background-image: url('http://ww1.sinaimg.cn/large/6be469dcgw1e9n83r3gtuj20bu0a8gn7.jpg');
+    background-size: contain;
+}
+.three_area .djp_demo table{
+    background-color: #000;
+    border: 1px solid #000;
+    width: 500px;
+}
+.three_area .djp_demo th{
+    color: #fff;
+}
+.three_area .djp_demo td{
+    background-color: #646464;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    color: #FFF399;
+    padding: 3px 10px;
+}
+.three_area .djp_demo tbody tr{
+    -webkit-animation: revolving 1s infinite;
+    -o-animation: revolving 1s infinite;
+    animation: revolving 1s infinite;
+    -webkit-transform-style: preserve-3d;
+}
+@-webkit-keyframes revolving{
+    0%,50%{
+        -webkit-transform: perspective(700px) rotateX(90deg);
+    }
+    75%{
+        -webkit-transform: perspective(700px) rotateX(0deg);
+    }
+    100%{
+        -webkit-transform: perspective(700px) rotateX(-90deg);
+
+    }
+}

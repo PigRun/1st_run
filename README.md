@@ -35,3 +35,4 @@
 ## 预览
 
 + [demo预览](http://pigrun.github.io/1st_run/demos/index.html)
++ [magazine预览](http://pigrun.github.io/1st_run/magazine/index.html)

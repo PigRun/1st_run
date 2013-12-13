@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 
+ * Comments: 
+ * @author: rob
+*/
+
+.arrow_area{
+	padding: 10px;
+	font-size: 16px;
+}
+.arrow_area .part1{
+    -webkit-columns:3;
+    -moa-columns:3;
+    columns:3;
+    padding-left: 10px;
+    line-height: 45px;
+}
+.arrow_area .part2{
+    -webkit-columns:2;
+    -moa-columns:2;
+    columns:2;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.arrow_area .preview{
+    float:left;
+    margin:15px;
+}
+
+.arrow_area pre{
+    font-size: 12px;
+    vertical-align: top;
+    padding:10px;
+    background:#eee;
+    text-indent: 0;
+    line-height: 3em;
+}
+
+
+.json{
+    font-family: microsoft yahei;
+    font-size: 22px;
+    padding-top:20px;
+    line-height: 2em;
+    background:#fff;
+    padding-left: 15px;
+}
+.json h1{
+    height: 90px;
+    line-height: 90px;
+    font-size: 48px;
+    color:#fff;
+    float:right;
+    margin-right: 20px;
+    font-family: microsoft yahei;
+    font-weight: normal;
+}
+
+.json .left{
+    float:left;
+    width:280px;
+}
+.json .code{
+    display: block;
+    margin:0 auto;
+    width:439px;
+}
+.json .right{
+    float:right;
+    width:370px;
+}
+.json .three{
+    margin-top: -50px;
+}
+.json .star{
+    position: relative;
+    left:280px;
+    bottom:30px;
+}
+.json .tri{
+    position: relative;
+    left:150px;
+}

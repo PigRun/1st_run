@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 小猪快跑
+ * Comments: CSS3篇
+ * @author: ppinghzou
+*/
+/*editor_L 样式 [[*/
+.editor_l{
+  padding:25px 10px 10px;
+  font-size: 20px;
+  color: #333;
+}
+.editor_l p{
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+.editor_l .lay_content{
+  margin: 30px 0 50px;
+  -webkit-column-rule:1px outset #555;
+  -moz-column-rule:1px outset #555;
+  column-rule:1px outset #555;
+}
+.editor_l .papers{
+  z-index: 4;
+  position: relative;
+  box-sizing:border-box;
+  margin: 10px auto 0;
+  padding: 0 20px;
+  width: 600px;
+  height: 300px;
+  line-height: 30px;
+  border: 1px solid #eee;
+  background-image:linear-gradient(transparent 2.4em, #eee 2.1em);
+  background-size: 100% 30px;
+  box-shadow: inset 0 0 30px rgba(225,225,225,1),0 0 3px rgba(0,0,0,.5),2px 2px 0 2px #fff,4px 4px 0 2px #eee,-2px -2px 0 2px #fff,-4px -4px 0 2px #eee;
+  font-size: 12px;
+}
+.editor_l .code_snippet{
+  margin: 0 30px;
+}
+/*editor_L 样式 ]]*/
+/*editor_R 样式 [[*/
+.editor_r{
+  padding:1px 10px 10px;
+  font-size: 20px;
+  color: #333;
+}
+.editor_r p{
+  margin-bottom: 20px;
+  padding: 0 30px;
+  line-height: 40px;
+}
+/*editor_R 样式 ]]*/

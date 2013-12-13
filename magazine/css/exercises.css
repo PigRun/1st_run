@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*
+ * Copy Right: Tencent CDC
+ * Project: 小猪快跑
+ * Comments: CSS3篇
+ * @author: ppinghzou
+*/
+/*exercises_l [[*/
+.exercises_l h2{
+  padding: 90px 0;
+  font-size: 28px;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+}
+.exercises_l .mike {
+        position: relative;
+        display: block;
+        width: 220px;
+        height: 370px;
+        margin: 0 auto;
+        background: #000;
+        border-radius: 300px;
+}
+.exercises_l .mike:before, .mike:after {
+        position: absolute;
+        content: '';
+}
+.exercises_l .mike:before {
+        width: 60px;
+        height: 120px;
+        background: #000;
+        left: 80px;
+        bottom: -180px;
+}
+.exercises_l .mike:after {
+        bottom: 0;
+        left: 0;
+        width: 300px;
+        height: 160px;
+        overflow: hidden;
+        border: 40px solid #000;
+        border-top: 0 none;
+        border-radius: 0 0 280px 280px;
+        bottom: -80px;
+        left: -80px;
+}
+  /*exercises_l ]]*/
+  /*exercises_r [[*/
+.exercises_r{
+  height: 100%;
+  color: #333;
+  text-align: center;
+  background: url(../img/exercises_r_bg.jpg) no-repeat bottom right;
+}
+.exercises_r h2{
+  padding: 230px 0 0;
+  font-size: 50px;
+  font-weight: normal;
+}
+  /*exercises_r ]]*/
