@@ -157,6 +157,24 @@
 .book .p23 {
 	z-index:88;
 }
+.book .p24 {
+	z-index:111;
+}
+.book .p25 {
+	z-index:87;
+}
+.book .p26 {
+	z-index:112;
+}
+.book .p27 {
+	z-index:86;
+}
+.book .p28 {
+	z-index:113;
+}
+.book .p29 {
+	z-index:85;
+}
 
 #p1:checked ~ .book .p1,
 #p2:checked ~ .book .p3,
@@ -168,7 +186,11 @@
 #p8:checked ~ .book .p15,
 #p9:checked ~ .book .p17,
 #p10:checked ~ .book .p19,
-#p11:checked ~ .book .p21
+#p11:checked ~ .book .p21,
+#p12:checked ~ .book .p23,
+#p13:checked ~ .book .p25,
+#p14:checked ~ .book .p27,
+#p15:checked ~ .book .p29
 {
 	-webkit-transform: rotate(0deg);
 	-webkit-transform-style: preserve-3d;
@@ -185,7 +207,11 @@
 #p8:checked ~ .book .p15 .rpi,
 #p9:checked ~ .book .p17 .rpi,
 #p10:checked ~ .book .p19 .rpi,
-#p11:checked ~ .book .p21 .rpi
+#p11:checked ~ .book .p21 .rpi,
+#p12:checked ~ .book .p23 .rpi,
+#p13:checked ~ .book .p25 .rpi,
+#p14:checked ~ .book .p27 .rpi,
+#p15:checked ~ .book .p29 .rpi
 {
 	right:-350px;
 	top:0px;
@@ -205,7 +231,11 @@
 #p8:checked ~ .book .p16,
 #p9:checked ~ .book .p18,
 #p10:checked ~ .book .p20,
-#p11:checked ~ .book .p22
+#p11:checked ~ .book .p22,
+#p12:checked ~ .book .p24,
+#p13:checked ~ .book .p26,
+#p14:checked ~ .book .p28,
+#p15:checked ~ .book .p30
 {
 	height:600px;
 	-webkit-transition: -webkit-transform 1s, height 0s 0s;
@@ -226,7 +256,11 @@
 #p8:checked ~ .book .p16 .lpi,
 #p9:checked ~ .book .p18 .lpi,
 #p10:checked ~ .book .p20 .lpi,
-#p11:checked ~ .book .p22 .lpi
+#p11:checked ~ .book .p22 .lpi,
+#p12:checked ~ .book .p24 .lpi,
+#p13:checked ~ .book .p26 .lpi,
+#p14:checked ~ .book .p28 .lpi,
+#p15:checked ~ .book .p30 .lpi
 {
 	top:0px;
 	-webkit-transform: rotate(0deg);
@@ -241,13 +275,13 @@
 .book .rpi b {
 	display:block;
 	width:60px;
-	height:50px;
+	height:500px;
 	position:absolute;
 	left:0;
 	top:0;
 	z-index: 9999;
-	background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
-	background-image: linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.2) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(left, rgba(0,0,0,0.2) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%);
 	opacity: 0.5;
 	-webkit-transform-origin: 50px -900px;
 	-webkit-transition: 1s;

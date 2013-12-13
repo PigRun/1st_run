@@ -1,0 +1,45 @@
+.flow{
+	font-family: "张海山锐线体简";
+	font-size: 24px;
+	padding:50px;
+	line-height: 1.5em;
+}
+.flow .flex{
+	display: flex;
+}
+.flow .header:first-letter{
+	font-size: 40px;	
+}
+.flow .header{
+	margin-bottom:10px;
+}
+.flow p{
+	text-indent: 2em;
+}
+.flow h1{
+	height: 90px;
+	line-height: 90px;
+	font-size: 48px;
+	color:#fff;
+	float:right;
+	margin-right: 20px;
+	font-family: microsoft yahei;
+	font-weight: normal;
+}
+.flow .footer{
+	font-weight: bold;
+	margin:20px 30px 0 30px;
+	font-size: 22px;
+}
+.flow .content{
+	-webkit-flow-into: example-text-flow;
+	position: relative;
+	font-size: 22px;
+}
+.flow .left,.flow .right{
+	flex:1;
+	-webkit-flow-from: example-text-flow;
+	width:300px;
+	height:260px;
+	margin:0 50px;
+}

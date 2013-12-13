@@ -39,3 +39,49 @@
     text-indent: 0;
     line-height: 3em;
 }
+
+
+.json{
+    font-family: microsoft yahei;
+    font-size: 22px;
+    padding-top:20px;
+    line-height: 2em;
+    background:#fff;
+    padding-left: 15px;
+}
+.json h1{
+    height: 90px;
+    line-height: 90px;
+    font-size: 48px;
+    color:#fff;
+    float:right;
+    margin-right: 20px;
+    font-family: microsoft yahei;
+    font-weight: normal;
+}
+
+.json .left{
+    float:left;
+    width:280px;
+}
+.json .code{
+    display: block;
+    margin:0 auto;
+    width:439px;
+}
+.json .right{
+    float:right;
+    width:370px;
+}
+.json .three{
+    margin-top: -50px;
+}
+.json .star{
+    position: relative;
+    left:280px;
+    bottom:30px;
+}
+.json .tri{
+    position: relative;
+    left:150px;
+}
