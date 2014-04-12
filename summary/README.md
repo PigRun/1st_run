@@ -10,6 +10,7 @@
 
 - [自定义字体图标与文本渐变](custom-font-icon.md)
 - [CSS伪元素应用](css-pseudo-element.md)
+- [CSS3背景技术与应用](use-css-background.md)
 - 使用CSS3绘制图形
 - CSS3遮罩
 - CSS3背景技术运用
