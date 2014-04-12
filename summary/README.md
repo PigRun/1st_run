@@ -9,6 +9,7 @@
 这一期，我们主要着重于挖掘以下CSS3方面的特性：
 
 - [自定义字体图标与文本渐变](custom-font-icon.md)
+- [CSS伪元素应用](css-pseudo-element.md)
 - 使用CSS3绘制图形
 - CSS3遮罩
 - CSS3背景技术运用
