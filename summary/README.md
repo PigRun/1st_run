@@ -11,12 +11,13 @@
 - [自定义字体图标与文本渐变](custom-font-icon.md)
 - [CSS伪元素应用](css-pseudo-element.md)
 - [CSS3背景技术与应用](use-css-background.md)
-- 使用CSS3绘制图形
-- CSS3遮罩
-- CSS3背景技术运用
-- 基于CSS3的图形化排版
-- CSS3变形折叠
-- CSS3过渡与变换
-- CSS3为元素运用
+- [CSS3之阴影使用](box-shadow.md)
+- [CSS3过渡与变换](transition-transform.md)
+- [CSS3动画](aniamtion.md)
+- [神奇的滤镜](css-filter.md)
 
 最后，借助于研究的结果，在不使用JavaScript的情况下，整合demo，实现了一本CSS3杂志，这本杂志尝试用CSS3实现了翻书的效果。
+
+- [第一期demo集合](demos.md)
+- [第一期汇总之CSS的杂志](http://pigrun.github.io/1st_run/magazine/index.html)
+- [学习参考资料](resources.md)
